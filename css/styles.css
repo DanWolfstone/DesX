@@ -1,0 +1,258 @@
+@charset "utf-8";
+Body {
+	/*background-image: url(BackgroundPlaid.jpg);*/
+    background-image: url(http://i.imgur.com/4FcT6c5.jpg); /*url("http://imgur.com/kQZd05Y.jpg"); */
+	background-repeat: no-repeat;
+    background-color: Gray;
+    color: #008080;
+    border: none;
+    border-width: none;
+    font-size: 15px;
+    text-align: none;
+    text-shadow: none;
+    text-decoration: none;
+    border-style: none;
+    border-color: none;
+    font-family: KodchiangUPC 15px;
+	width: %100;
+	height: %100;
+
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+/*http://i.imgur.com/bUOt0yL.jpg*/
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+#SS img {
+	opacity:0.5
+}
+#SS img:hover {
+	opacity: 1.0;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.container {
+	 /*width: 800px; */
+	/*width: 80%; */
+	min-width: 800px ;
+	height: 75%;
+	background-color: none;
+	/*background-image: url(Background.jpg)*/
+    background-image:url("http://i.imgur.com/bUOt0yL.jpg");
+	margin: 0 auto; 
+	overflow: hidden;
+	}
+
+
+.header {
+	background-color: #808080;
+}
+
+.sidebar1 {
+	float: left;
+	width: 200px;
+	font-size:18px;
+	background-color: #C00;
+	color:#000;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 5px 0;
+	/*width: 780px;*/
+	float: right;
+	width: 65%;
+	padding-right: 7%;
+	
+	}
+
+
+.content ul, .content ol { 
+	padding: 0 10px 10px 30px;
+}
+
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	margin-bottom: 15px;
+	background-color: #CDCDCD;
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+	background-color: #CDCDCD;
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 160px; 
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;
+	clear: both;	
+}
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.news {
+	font-size:24px;
+	background-color: #FFF;
+	color:#FFF;
+	width: 50px;
+}
+
+.Button {
+    background: #888;
+    border: 1px solid;
+    border-color: #999 #777 #777 #999;
+}	
+inside {
+	color: #CCC
+}
+
+.TypeIt {
+	text-align: center;
+	font-weight: bold;
+	color: #808080;
+	text-decoration: underline;
+}
+
+.placeholder-image {
+	margin-right:650px;
+	margin-left:70px;
+	
+}
+/* ~~Profile CSS~~ */
+
+.prof-top {
+	background-color:  white; 
+	color:  #000000;
+	border-width: 2px; 
+	border-color: #000000; 
+	border-style: solid; 
+	font-style: bold; 
+	text-decoration: underline; 
+	padding: 15px;
+	margin-right: 835px;
+	margin-left: 40px;
+
+}
+
+.prof-image {
+	margin-left: 95px;
+	margin-right: 750px;
+	
+}
+
+.prof-body {
+	padding: 20px;
+	margin: 45px;
+	color: #cc0000;
+	font-size: 20px;
+}
+
+.prof-item {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+}
+
+.forwarded-left {
+	margin-left: 60px;
+	
+}
+
+#MakeShiftTwitter {
+	height: 300px;
+	width: 200px;
+	overflow: none;
+}
+
+.InsideTheShift {
+	background-color: #BFE3E1;
+	margin-left: 3px;
+	margin-right: 2px;
+	font-size: 15px;
+	margin-top: 5px;
+	
+}
+
+/*     Start  Profile edit  styles      */
+	.ic {
+		padding: 25%, 50%;
+		
+	}
+	
+	.editContent {
+		width: 645px;
+		background-color: none;
+		/*background-image: url(Background.jpg)*/
+		background-image:url("http://i.imgur.com/bUOt0yL.jpg");
+		margin: 0px auto;
+		margin-top: 75px;
+		display: block;
+		padding-left: 45px;
+		padding-top: 25px; 
+		padding-bottom: 25px;
+		
+		
+	}
+	.DZ {
+		padding: 20px;
+		margin-left: 190px;
+		text-align: left;
+		
+	}
+	#SS {
+		padding:50px;
+		text-align:center;
+		width: 1280px;
+		height: 720px;
+		background-color: white;
+		overflow: hidden;
+	}
